@@ -3,7 +3,8 @@ body {
   margin: 20px;
 }
 
-ol, ul {
+ol,
+ul {
   padding-left: 30px;
 }
 
@@ -17,9 +18,11 @@ ol, ul {
   margin-bottom: 10px;
 }
 
-
+.square:nth-of-type() {
+  background-color: red;
+}
 .square {
-  background: #FFF;
+  background: #fff;
   border: 1px solid #999;
   float: left;
   font-size: 24px;
@@ -48,4 +51,7 @@ ol, ul {
 
 .game-info {
   margin-left: 20px;
+}
+.specific-square {
+  background-color: red;
 }
